@@ -10,26 +10,28 @@ body {
     background-color: #16B1E9;
 }
 
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 .header {
     display: flex;
     justify-content: center;
     font-size: 40px;
     font-weight: 550;
-    padding-top: 20px;
+    padding: 20px;
 }
 
-.addItemContainer {
-    display: flex;
-    justify-content: center;
-    padding-top: 10px;
-}
-
-.addItemContainer input {
+input {
     background-color: #fff;
-    width: 13rem;
+    width: 10rem;
     border-style: none;
+    padding: 5px;
 }
 
-.addButton {
-    margin-left: 15px;
+.submit {
+    margin-top: 5px;
 }
