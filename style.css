@@ -25,13 +25,30 @@ body {
     padding: 20px;
 }
 
-input {
+#add-item,
+#submit {
     background-color: #fff;
     width: 10rem;
     border-style: none;
     padding: 5px;
 }
 
-.submit {
+#submit {
     margin-top: 5px;
+}
+
+#list {
+    padding-top: 15px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+#list li {
+    align-self: center;
+}
+
+#list input {
+    align-self: flex-start;
 }
