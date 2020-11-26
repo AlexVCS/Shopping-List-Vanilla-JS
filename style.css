@@ -29,12 +29,12 @@ body {
 #submit {
     background-color: #fff;
     width: 10rem;
-    border-style: none;
     padding: 5px;
 }
 
 #submit {
     margin-top: 5px;
+    border-style: none;
 }
 
 #list {
