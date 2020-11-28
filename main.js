@@ -1,17 +1,13 @@
-
-
 addToList = () => {
-    const submitButton = document.getElementById('submit');
-    const list = document.getElementById('list');
+    const submitButton = document.getElementById("submit");
+    let item = document.getElementById("add-item").value;
 
     submitButton.addEventListener("click", moreToBuy = () => {
-        let item = document.getElementById("add-item").value;
+        let addItem = document.querySelector("#list");
         let addLi = document.createElement("LI");
         addLi.textContent = item;
-        let addItem = document.querySelector('#list');
         addItem.appendChild(addLi);
-        list.appendChild(addItem);
-    })
+    });
 }
 
 addToList();
