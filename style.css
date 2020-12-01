@@ -47,6 +47,11 @@ body {
 
 #list li {
     align-self: center;
+    padding-bottom: 8px;
+}
+
+li:nth-child(1) {
+    margin-top: 10px;
 }
 
 #list input {
