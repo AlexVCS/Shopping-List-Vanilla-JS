@@ -57,3 +57,9 @@ li:nth-child(1) {
 #list input {
     align-self: flex-start;
 }
+
+.remove {
+    font-size: 20px;
+    width: 3px;
+    background-color: #000;
+}
