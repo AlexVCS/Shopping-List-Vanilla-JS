@@ -12,15 +12,13 @@ controlList = () => {
         addItem.appendChild(addLi);
         item.value = "";
     });
-
-    // const removeButton = document.createElement("button");
-    // removeButton.className = "remove";
-    // removeButton.innerHTML = "Remove";
-    // document.getElementsByClassName("item").appendChild(removeButton);
-
-    // removeButton.addEventListener("click", removeItem = () => {
-        
-    // })
 }
 
 controlList();
+
+// const listItem = document.getElementsByClassName(".item")[0];
+
+//     listItem.addEventListener("click", checkItemOff = (e) => {
+        
+//         listItem.style.textDecoration = "line-through";
+//     });
