@@ -7,7 +7,7 @@ controlList = () => {
     submitButton.addEventListener("click", moreToBuy = (e) => {
         e.preventDefault();
         const addLi = document.createElement("li");
-        addLi.className = "item"
+        addLi.id = "item"
         addLi.textContent = item.value;
         addItem.appendChild(addLi);
         item.value = "";
@@ -16,9 +16,15 @@ controlList = () => {
 
 controlList();
 
-// const listItem = document.getElementsByClassName(".item")[0];
+// markComplete = () => {
+//     let listItem = document.getElementById("item").textContent;
 
-//     listItem.addEventListener("click", checkItemOff = (e) => {
-        
+//     // if (moreToBuy) {
+//         listItem.addEventListener("dblclick", checkItemOff = () => {
 //         listItem.style.textDecoration = "line-through";
-//     });
+//         });
+//     // }
+// }
+
+// markComplete();
+   
