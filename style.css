@@ -80,6 +80,8 @@ form {
     border-left: 1px solid #ffaa9f;
     border-right: 1px solid #ffaa9f;
     width: 2px;
+    /* display: flex;
+    justify-content: flex-start; */
     float: left;
     height: 520px;
     margin-left: 40px;
